@@ -3,9 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume | Luxon Osoro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Luxon Osoro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== RESUME CONTENT ===== -->
+    <section class="container py-5 mt-5">
+        <h2 class="text-center mb-4">My Resume</h2>
+        
+        <!-- Professional Summary -->
+        <div class="card p-4 mb-4 shadow-sm">
+            <h3><i class="bi bi-person text-primary"></i> Professional Summary</h3>
+            <p class="lead">Dynamic Full-Stack Engineer with hands-on experience building scalable web applications using React.js, Node.js, and MongoDB. Passionate about solving complex problems through technology, with expertise in Agile methodologies, CI/CD, and AI integrations. Strong academic background in Computer Science and a commitment to continuous learning.</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- LEFT COLUMN: Experience & Projects -->
+            <div class="col-lg-7">
+                <!-- Experience -->
+                <h3 class="border-bottom pb-2"><i class="bi bi-briefcase text-primary"></i> Experience</h3>
+                
+                <div class="mb-4">
+                    <h5>Full-Stack Development Bootcamp</h5>
+                    <p class="text-muted"><i class="bi bi-building"></i> GOMYCODE, Nairobi, Kenya</p>
+                    <p class="text-muted"><i class="bi bi-calendar"></i> Jan 2025 – Jun 2025</p>
+                    <ul>
+                        <li>Built 5+ full-stack projects using React.js, Node.js, and MongoDB</li>
+                        <li>Deployed applications on Vercel and implemented secure RESTful APIs</li>
+                        <li>Collaborated with peers on Agile/Scrum development cycles</li>
+                        <li>Gained hands-on experience with Git version control and CI/CD pipelines</li>
+                    </ul>
+                </div>
+
+                <!-- Projects -->
+                <h3 class="border-bottom pb-2 mt-4"><i class="bi bi-folder text-primary"></i> Projects</h3>
+                
+                <div class="mb-4">
+                    <h5>Smart Property Manager</h5>
+                    <p><span class="badge bg-primary">React.js</span> <span class="badge bg-primary">Tailwind CSS</span> <span class="badge bg-primary">MongoDB</span></p>
+                    <ul>
+                        <li>Developed a property management dashboard for tenant tracking, rent payment automation, and maintenance ticketing</li>
+                        <li>Built responsive UI and integrated RESTful APIs to improve administrative efficiency</li>
+                        <li>Implemented user authentication and role-based access control</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
+                    <h5>E-Commerce Platform</h5>
+                    <p><span class="badge bg-primary">React.js</span> <span class="badge bg-primary">Node.js</span> <span class="badge bg-primary">MongoDB</span></p>
+                    <ul>
+                        <li>Built a full-featured online store with shopping cart and payment integration</li>
+                        <li>Developed RESTful APIs for product management and order processing</li>
+                        <li>Implemented responsive design using Bootstrap and custom CSS</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
+                    <h5>AI-Powered Chat Application</h5>
+                    <p><span class="badge bg-primary">React.js</span> <span class="badge bg-primary">Express.js</span> <span class="badge bg-primary">AI Integration</span></p>
+                    <ul>
+                        <li>Created a real-time chat application with AI-powered responses</li>
+                        <li>Integrated OpenAI API for intelligent conversation features</li>
+                        <li>Deployed full-stack application on Vercel</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
+                    <h5>Portfolio &amp; Blog Platform</h5>
+                    <p><span class="badge bg-primary">Next.js</span> <span class="badge bg-primary">Tailwind CSS</span> <span class="badge bg-primary">Vercel</span></p>
+                    <ul>
+                        <li>Built a modern portfolio and blog platform for content creators</li>
+                        <li>Implemented markdown support for blog posts</li>
+                        <li>Optimized for SEO and performance with Next.js</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN: Education, Skills, Certifications -->
+            <div class="col-lg-5">
+                <!-- Education -->
+                <h3 class="border-bottom pb-2"><i class="bi bi-mortarboard text-primary"></i> Education</h3>
+                
+                <div class="mb-4">
+                    <h5>Bachelor of Science in Informatics and Computer Science</h5>
+                    <p class="text-muted"><i class="bi bi-building"></i> Strathmore University, Nairobi, Kenya</p>
+                    <p class="text-muted"><i class="bi bi-calendar"></i> Expected Graduation: 2029</p>
+                    <ul>
+                        <li>Dean's List - Academic Excellence</li>
+                        <li>Active member of the Computer Science Club</li>
+                        <li>Coursework: Data Structures, Algorithms, Web Development, Database Systems</li>
+                    </ul>
+                </div>
+
+                <!-- Technical Skills -->
+                <h3 class="border-bottom pb-2"><i class="bi bi-tools text-primary"></i> Technical Skills</h3>
+                
+                <div class="mb-3">
+                    <h6>Frontend</h6>
+                    <div class="d-flex flex-wrap gap-1">
+                        <span class="badge bg-secondary">React.js</span>
+                        <span class="badge bg-secondary">Next.js</span>
+                        <span class="badge bg-secondary">Tailwind CSS</span>
+                        <span class="badge bg-secondary">Bootstrap</span>
+                        <span class="badge bg-secondary">HTML5</span>
+                        <span class="badge bg-secondary">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <h6>Backend</h6>
+                    <div class="d-flex flex-wrap gap-1">
+                        <span class="badge bg-secondary">Node.js</span>
+                        <span class="badge bg-secondary">Express.js</span>
+                        <span class="badge bg-secondary">RESTful APIs</span>
+                        <span class="badge bg-secondary">AI Integrations</span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <h6>Database</h6>
+                    <div class="d-flex flex-wrap gap-1">
+                        <span class="badge bg-secondary">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <h6>Tools &amp; Practices</h6>
+                    <div class="d-flex flex-wrap gap-1">
+                        <span class="badge bg-secondary">Git</span>
+                        <span class="badge bg-secondary">GitHub</span>
+                        <span class="badge bg-secondary">Vercel</span>
+                        <span class="badge bg-secondary">Agile/Scrum</span>
+                        <span class="badge bg-secondary">CI/CD</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <h3 class="border-bottom pb-2 mt-4"><i class="bi bi-people text-primary"></i> Soft Skills</h3>
+                <div class="d-flex flex-wrap gap-1">
+                    <span class="badge bg-info">Team Collaboration</span>
+                    <span class="badge bg-info">Problem-Solving</span>
+                    <span class="badge bg-info">Creativity</span>
+                    <span class="badge bg-info">Time Management</span>
+                    <span class="badge bg-info">Adaptability</span>
+                    <span class="badge bg-info">Communication</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <div class="text-center mt-5">
+            <a href="Luxon_Osoro_CV.pdf" class="btn btn-primary btn-lg"><i class="bi bi-download"></i> Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2026 Luxon Osoro Nyakundi. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-github fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-envelope fs-5"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-file-earmark-pdf fs-5"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
