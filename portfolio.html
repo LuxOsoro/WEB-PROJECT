@@ -3,9 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio | Luxon Osoro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Luxon Osoro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PORTFOLIO CONTENT ===== -->
+    <section class="container py-5 mt-5">
+        <h2 class="text-center mb-4">My Portfolio</h2>
+        <p class="text-center text-muted mb-4">Check out my recent projects</p>
+        
+        <!-- Filter Buttons -->
+        <div class="text-center mb-4">
+            <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="web">Web Apps</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="ai">AI Projects</button>
+            <button class="btn btn-outline-primary filter-btn" data-filter="fullstack">Full-Stack</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="row g-4" id="portfolio-grid">
+            <!-- Project 1 - Full-Stack -->
+            <div class="col-md-4 portfolio-item" data-category="fullstack">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Smart Property Manager">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Property Manager</h5>
+                        <p class="card-text">Property management dashboard for tenant tracking, rent payment automation, and maintenance ticketing.</p>
+                        <span class="badge bg-primary">React.js</span>
+                        <span class="badge bg-primary">Tailwind CSS</span>
+                        <span class="badge bg-primary">MongoDB</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 - Full-Stack -->
+            <div class="col-md-4 portfolio-item" data-category="fullstack">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="E-Commerce Platform">
+                    <div class="card-body">
+                        <h5 class="card-title">E-Commerce Platform</h5>
+                        <p class="card-text">Full-featured online store with shopping cart, payment integration, and order management.</p>
+                        <span class="badge bg-primary">React.js</span>
+                        <span class="badge bg-primary">Node.js</span>
+                        <span class="badge bg-primary">MongoDB</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 - AI -->
+            <div class="col-md-4 portfolio-item" data-category="ai">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="AI Chat Application">
+                    <div class="card-body">
+                        <h5 class="card-title">AI-Powered Chat Application</h5>
+                        <p class="card-text">Real-time chat application with AI-powered responses using OpenAI API integration.</p>
+                        <span class="badge bg-primary">React.js</span>
+                        <span class="badge bg-primary">Express.js</span>
+                        <span class="badge bg-primary">AI Integration</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 - Web -->
+            <div class="col-md-4 portfolio-item" data-category="web">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Portfolio & Blog">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio &amp; Blog Platform</h5>
+                        <p class="card-text">Modern portfolio and blog platform with markdown support and SEO optimization.</p>
+                        <span class="badge bg-primary">Next.js</span>
+                        <span class="badge bg-primary">Tailwind CSS</span>
+                        <span class="badge bg-primary">Vercel</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 - Web -->
+            <div class="col-md-4 portfolio-item" data-category="web">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Task Management App">
+                    <div class="card-body">
+                        <h5 class="card-title">Task Management App</h5>
+                        <p class="card-text">Productivity application with task tracking, deadlines, and team collaboration features.</p>
+                        <span class="badge bg-primary">React.js</span>
+                        <span class="badge bg-primary">Bootstrap</span>
+                        <span class="badge bg-primary">Node.js</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 - AI -->
+            <div class="col-md-4 portfolio-item" data-category="ai">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="AI Image Generator">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Image Generator</h5>
+                        <p class="card-text">Web application that generates images using AI based on text prompts.</p>
+                        <span class="badge bg-primary">React.js</span>
+                        <span class="badge bg-primary">AI API</span>
+                        <span class="badge bg-primary">Tailwind CSS</span>
+                        <div class="mt-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2026 Luxon Osoro Nyakundi. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-github fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-envelope fs-5"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-file-earmark-pdf fs-5"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
