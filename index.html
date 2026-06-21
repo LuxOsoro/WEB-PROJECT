@@ -3,12 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web App</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Luxon Osoro | Full-Stack Engineer</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Project Name</h1>
-    <p>Under construction. More pages coming soon.</p>
-    <script src="js/main.js"></script>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Luxon Osoro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="hero d-flex align-items-center">
+        <div class="container text-center text-white">
+            <div class="profile-image mb-4">
+                <img src="myphoto.jpg" alt="Luxon Osoro" class="rounded-circle" width="150" height="150">
+            </div>
+            <h1 class="display-2 fw-bold">Luxon Osoro Nyakundi</h1>
+            <p class="lead fs-3">Full-Stack Engineer</p>
+            <p class="mb-3 fs-5"><i class="bi bi-geo-alt"></i> Nairobi, Kenya</p>
+            <div class="social-links mb-4">
+                <a href="https://www.linkedin.com/in/luxon-osoro/" class="text-white me-3"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="https://github.com/LuxOsoro" class="text-white me-3"><i class="bi bi-github fs-4"></i></a>
+                <a href="mailto:luxonosoro01@gmail.com" class="text-white me-3"><i class="bi bi-envelope fs-4"></i></a>
+                <a href="Luxon_Osoro_CV.pdf" class="text-white"><i class="bi bi-file-earmark-pdf fs-4"></i></a>
+            </div>
+            <div>
+                <a href="portfolio.html" class="btn btn-light btn-lg">View My Work</a>
+                <a href="contact.html" class="btn btn-outline-light btn-lg ms-2">Hire Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== QUICK STATS ===== -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6">
+                    <h2 class="display-4 fw-bold text-primary">5+</h2>
+                    <p class="text-muted">Projects Completed</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-4 fw-bold text-primary">2</h2>
+                    <p class="text-muted">Years Experience</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-4 fw-bold text-primary">10+</h2>
+                    <p class="text-muted">Technologies</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-4 fw-bold text-primary">2029</h2>
+                    <p class="text-muted">Graduation Year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2026 Luxon Osoro Nyakundi. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-github fs-5"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-envelope fs-5"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-file-earmark-pdf fs-5"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
 </body>
 </html>
