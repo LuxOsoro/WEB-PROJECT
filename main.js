@@ -1,11 +1,4 @@
-/**
- * ========================================
- * LUXON OSORO - Portfolio JavaScript
- * Interactive Features:
- * 1. Portfolio Filter
- * 2. Contact Form Validation
- * ========================================
- */
+
 
 document.addEventListener('DOMContentLoaded', function() {
 
